@@ -14,6 +14,7 @@ This is fully ready Docker container with:
  - Tensorflow
  - Keras
  - OpenCV 3
+ - gensim
 
 We're building this container on top of [Ubuntu 16.04 Docker container](https://hub.docker.com/_/ubuntu/) ([Dockerfile](https://github.com/andreivmaksimov/python_data_science/blob/master/Dockerfile)) and [Anaconda Docker container](https://hub.docker.com/r/continuumio/anaconda3/) ([Dockerfile](https://github.com/andreivmaksimov/python_data_science/blob/master/Dockerfile.anaconda))
 

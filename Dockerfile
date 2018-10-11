@@ -33,7 +33,7 @@ RUN cd opencv-3.3.1 && \
 
 RUN pip3 install --upgrade pip && \
     pip3 install tensorflow && \
-    pip3 install numpy pandas sklearn matplotlib seaborn jupyter pyyaml h5py && \
+    pip3 install numpy pandas sklearn gensim matplotlib seaborn jupyter pyyaml h5py && \
     pip3 install keras --no-deps && \
     pip3 install opencv-python && \
     pip3 install imutils
